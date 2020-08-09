@@ -1,0 +1,175 @@
+
+/* ----this css style home page----*/
+*{
+
+  margin:0;
+  padding:0;
+}
+
+.container{
+width:90%;
+margin:0 auto;
+
+
+}
+
+a{
+  text-decoration: none;
+}
+.navbar{
+
+width:100%;
+overflow: hidden;
+height:70px;
+line-height: 70px;
+background:rgb(0, 100, 72);
+border-bottom: 2px solid lightseagreen;
+position: fixed;
+top:0;
+}
+
+
+.logo{
+  width:70px;
+  float:left;
+  
+  
+}
+
+/* this is for ul tag  */
+.menu{
+  float:right;
+}
+.menu li{
+  float:left;
+  width: 120px;
+  height:70px;
+  line-height: 70px;
+  text-align: center;
+  list-style: none;
+  text-decoration:none ;
+  
+  
+}
+
+
+.menue li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Calibri;
+  list-style: none;
+  
+}
+.menu li:hover{
+  background: #a57c0ba4;
+}
+.menu li a :hover{
+
+  color: #fff;
+
+}
+/*------- finish of styling the navigation bar------- */
+
+.myclass{
+  background:lightblue;
+  
+  text-align: center;
+  border:200px;
+  padding:200px;
+  margin:50px;
+}
+.list_styling{
+  text-align: center;
+  color:blue;
+
+}
+
+.mystyling,.mystyling2{
+  text-align: center;
+  list-style: none;
+  background: rgb(15, 100, 7);
+}
+/* ---this is the benefit of youth care styling located in the main webpage---*/
+.mystyling3{
+  text-align: center;
+}
+
+/*------end of the benefit of youth care styling----------------------------*/
+.mystyling1{
+  text-align: center;
+}
+.style1{
+  float:right;
+}
+.myclass{
+  background-image: url(images/img3.html);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center center ;
+  background-attachment: fixed;
+ 
+ 
+}
+.one{
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 9px;
+  color:rgb(0, 100 ,72);
+  border:solid #003366 ;
+
+  
+  text-decoration:none ;
+}
+
+#wrapper{
+ background-color: azure;
+ padding: 5px;
+ text-align: center;
+ border: solid 1px #c3c3c3;
+}
+h2{
+  text-align: center;
+  color:rgb(0, 100 ,72);
+}
+
+/*-----style video ----------------------------------------------*/
+
+.iframe-container{
+
+  position:relative;
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0;
+}
+
+.iframe-container iframe{
+
+  position:absolute;
+  top:0;
+  left:0;
+  width:10%;
+  height:10%;
+}
+
+/* ----this part style footer------------------------------------------------------------*/
+footer{
+
+  background-color: #303036;
+  color:white;
+  height:400px;
+  position: relative;
+  text-align:center;
+  bottom: 0px;
+  padding-top: 20px;
+  left:0px;
+ border:1px solid rgb(40,100,70);
+ padding-top: 20px;
+
+ 
+}
+.iframe-container{
+  position:relative;
+  width:100%;
+  padding-bottom:56.25%;
+  height:0;
+ 
+}

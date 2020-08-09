@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+.Mysirst_class{
+    border: 1px solid black;
+
+}
+
+input{
+    color: rgb(135, 161, 22);
+}
+
+body{
+   background-size:cover;
+}
+
+   </style>
+
+   <script>
+
+function validate(){
+
+var username=document.getElementById("uname");
+var email=document.getElementById("email");
+var org_name=document.getElementById("or_name");
+
+
+if(username.value.trim()== "" || email.value.trim()=="" || org_name.value.trim()==""){
+
+    alert("sorry no blank values allowed");
+    return false;
+}
+true;
+}
+
+
+
+
+   </script>
+</head>
+<!---image from website : pixabay.com/photo-->
+<body background="images/backimg.jpg" > 
+    <h3>Please fill up the following fields to get the demo of the software</h3>
+<div class="Mysirst_class">
+   <form action="formvali.html" onsubmit=" return  validate()" >
+   <label for="them">Name</label>
+    <input type="name" id="uname">
+    <label for="them">Designation</label>
+    <input type="name" id="email">
+    <label for="them">Phone Number</label>
+    <input type="Number">
+<br>
+<label for="them">email</label>
+    <input type="email" >
+    <label for="them1" id ="or_name">Organization Name</label>
+      <input type="text">
+<label for="them">--Select type--</label>
+<select>
+<option>Hospital</option>
+<option>Clinic</option>
+<option>Diagnostic center</option>
+<option>Others</option>
+</select>
+<br>
+<br><br><br>
+<label for="them">Organization Address</label>
+      <input type="text">
+      <label for="them"> Number of Beds</label>
+    <input type="Number">
+    <label for="them"> Country</label>
+    <input type="text"><br>
+    <label for="them"> City</label>
+    <input type="text">
+    <label>Select your gender</label>
+    <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+   <br> <textarea name="message" rows="10" cols="30">Add any additional information please </textarea>
+<input type="submit" onclick="validate()">
+
+    </form>
+    </div>
+</body>
+</html>
